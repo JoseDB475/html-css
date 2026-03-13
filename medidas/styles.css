@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+p{
+    background-color: bisque;
+}
+html{
+    font-size: 62.5%;
+}
+
+.pixeles{
+       font-size: 16px;
+}

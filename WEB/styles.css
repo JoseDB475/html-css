@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+
+
+body{
+    background-color: rgb(191, 247, 191);
+    box-sizing: border-box;
+}
+
+header{
+    margin: 0rem;
+    padding: 0.5rem;
+    background-color: rgb(77, 247, 170);
+    display: flex;
+    padding: 3rem 3rem;
+}
+
+nav{
+    background-color: rgb(7, 247, 170);
+    display: flex;
+    padding: 0rem 0rem;
+    justify-content: space-between;
+    align-items: center;
+    /* width- da el ancho a la etiqueta nav */
+    width: 100%;
+
+}
+
+div{
+    height: auto;
+    left: auto;
+}
+
+
+.logo{
+    padding: 0;
+    display: inline-block;
+    box-shadow: 0rem 0rem 100rem rgb(173, 169, 169);
+    margin: 3rem;
+    top: 0;
+    left: 0;
+    width: 15rem;
+    border-radius: 60%
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 7rem;
+}
+
+
+footer{
+    padding: ;
+    background-color:black ;
+    color:white ;
+    text-align: center;
+    margin-top: auto;
+}
+
+    
+    
+
+
+    
+
+
+ 
+ 
