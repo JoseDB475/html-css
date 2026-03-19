@@ -17,10 +17,21 @@ body{
 
 header{
     margin: 0rem;
-    padding: 0.5rem;
+    padding:17px;
     background-color: rgb(77, 247, 170);
     display: flex;
-    padding: 3rem 3rem;
+}
+
+.encabezado{
+    padding: 50px;
+    height: 20px;
+}
+
+.main_title{
+    text-align: center;
+    font-size: 2rem;
+    
+
 }
 
 nav{
@@ -43,7 +54,7 @@ div{
 .logo{
     padding: 0;
     display: inline-block;
-    box-shadow: 0rem 0rem 100rem rgb(173, 169, 169);
+    box-shadow: 0rem 0rem 100rem rgb(181, 174, 174);
     margin: 3rem;
     top: 0;
     left: 0;
