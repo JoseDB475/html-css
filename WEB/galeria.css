@@ -4,17 +4,16 @@
     box-sizing: 0;
 }
 
-H1{
-    text-align: center;
+H1{text-align: center;
     margin: 40px;
-    color: aliceblue;
+    color: aliceblue;}
+   
     
-}
-
 body{
-    background-color: rgb(3, 28, 19);
+    background-color: rgb(191, 247, 191);
+    box-sizing: border-box;
 }
-
+    
 .CONTAINER{
          display:flex;
          gap: 20px;
@@ -31,7 +30,7 @@ body{
 }
 
 img{
-    border-radius: 50%;
+    border-radius: 10%;
     border: 10px solid  green;
 
 }

@@ -19,7 +19,7 @@
             <h1 class="main_title">JOSE DUARTE BAEZ</h1>
 
             <ul class="menu_list">
-                <li class="home"><a href="#">INICIO</a></li>
+                <li class="INICIO"><a href="index.html">INICIO</a></li>
                 <li class="galeria"><a href="galeria.html">GALERIA</a></li>
                 <li class="contacto"><a href="contacto.html">CONTACTO</a></li>
             </ul>
@@ -31,44 +31,157 @@
 
     <main>
         <div class="contenedor">
-            <div class="card">
-                <h3>tema 1</h3>
-                <p>descripcion del tema</p>
-                <button>ver mas</button>
-            </div>
+
             <div class="card">
                 <h3>BOX_MODEL</h3>
-                <p>descripcion del tema</p>
-                <button>ver mas</button>
+                <p class="parrafo">Permite dar estructura y dimensiones a los elementos de una pagina web</p>
+                <BUtton command="show-modal" commandfor="modal_box_model">VER MAS</BUtton>
+
+                <dialog id="modal_box_model">
+
+                    <P>Sirve para gestionar el diseño (layout), espaciado, bordes y dimensiones de los elementos,
+                        compuesto por: Contenido (texto/imagen), Padding (relleno interior), Borde y Margen (espacio
+                        exterior)</P>
+                </dialog>
             </div>
+
             <div class="card">
                 <h3>DISPLAY </h3>
-                <p>descripcion del tema</p>
-                <button>ver mas</button>
+                <p class="parrafo">Abarca desde visualizaciones de datos en pantallas hasta interfases de usuarios
+                    complejas</p>
+                <BUtton command="show-modal" commandfor="modal_display">VER MAS</BUtton>
+
+                <dialog id="modal_display">
+
+                    <P>En programación, "display" se refiere principalmente a dos contextos: el diseño web (CSS) para
+                        controlar la visualización y maquetación de elementos, o componentes electrónicos
+                        (hardware/electrónica) como displays de 7 segmentos para mostrar información visual. En CSS,
+                        define cómo se comporta una caja, ya sea como bloque, en línea, flexible o cuadrícula.</P>
+                </dialog>
             </div>
+
             <div class="card">
                 <h3>FLEX_BOX</h3>
-                <p>descripcion del tema</p>
-                <button>ver mas</button>
+                <p class="parrafo">Permite alinear,distribuir espacio y organizar elementos hijos dentro de un
+                    contenedor</p>
+                <BUtton command="show-modal" commandfor="modal_flex_box">VER MAS</BUtton>
+
+                <dialog id="modal_flex_box">
+
+                    <P>Flexbox es un modelo de maquetación CSS3 unidimensional que permite
+                        organizar elementos en filas o columnas de forma flexible, facilitando la alineación y
+                        distribución del espacio en interfaces web. Sirve para crear diseños adaptables (responsivos)
+                        sin usar técnicas complejas, logrando que los elementos ajusten su tamaño y posición
+                        automáticamente según la pantalla.</P>
+                </dialog>
             </div>
+
             <div class="card">
                 <h3>MEDIDAS</h3>
-                <p>descripcion del tema</p>
-                <button>ver mas</button>
+                <p class="parrafo"> Definen el tamaño de los elementos dentro de un lenguaje de etiquetado como html</p>
+                <BUtton command="show-modal" commandfor="modal_medidas">VER MAS</BUtton>
+
+                <dialog id="modal_medidas">
+
+                    <P>Las medidas en CSS definen el tamaño, espaciado y disposición de elementos web (texto,
+                        contenedores, imágenes), permitiendo controlar el diseño visual. Sirven para crear sitios web
+                        adaptables (responsive) a diferentes pantallas, asegurando que elementos como márgenes, rellenos
+                        y fuentes mantengan proporciones correctas en móviles y escritorio, utilizando unidades
+                        relativas o absolutas.</P>
+                </dialog>
             </div>
+
             <div class="card">
                 <h3>PROPIEDADES</h3>
-                <p>descripcion del tema</p>
-                <button>ver mas</button>
+                <p class="parrafo">HTML define la estructura semantica y css aplica propiedades visuales de una pagina
+                    web</p>
+                <BUtton command="show-modal" commandfor="modal_propiedades">VER MAS</BUtton>
+
+                <dialog id="modal_propiedades">
+
+                    <P>Las propiedades en CSS son características que definen el diseño, estilo y comportamiento de
+                        elementos HTML, como colores, tamaños, bordes o disposición. Sirven para separar el contenido
+                        (HTML) de la presentación (CSS), permitiendo crear sitios web atractivos, responsivos y fáciles
+                        de mantener al controlar la apariencia.</P>
+                </dialog>
             </div>
+
             <div class="card">
                 <h3>SELECTORES</h3>
-                <p>descripcion del tema</p>
-                <button>ver mas</button>
+                <p class="parrafo">Se utilizan en css para seleccionar y aplicar estilos, tamaños, disposicion a los
+                    elementos de html</p>
+                <BUtton command="show-modal" commandfor="modal_selectores">VER MAS</BUtton>
+
+                <dialog id="modal_selectores">
+
+                    <P>Los selectores en CSS son patrones que permiten identificar y seleccionar elementos HTML
+                        específicos (etiquetas, clases, IDs) para aplicarles estilos visuales, como color, tamaño o
+                        disposición. Sirven para vincular la estructura (HTML) con la apariencia (CSS), permitiendo
+                        diseñar, organizar y hacer interactiva una página web.</P>
+                </dialog>
             </div>
 
         </div>
+
+
+        <script>
+
+
+            let modal_box_model = document.getElementById('modal_box_model')
+            modal_box_model.addEventListener('click', (e) => {
+                if (e.target === modal_box_model) modal_box_model.close()
+            })
+        </script>
+
+        <script>
+
+
+            let modal_display = document.getElementById('modal_display')
+            modal_display.addEventListener('click', (e) => {
+                if (e.target === modal_display) modal_display.close()
+            })
+        </script>
+
+        <script>
+
+
+            let modal_flex_box = document.getElementById('modal_flex_box')
+            modal_flex_box.addEventListener('click', (e) => {
+                if (e.target === modal_flex_box) modal_flex_box.close()
+            })
+        </script>
+
+        <script>
+
+
+            let modal_medidas = document.getElementById('modal_medidas')
+            modal_medidas.addEventListener('click', (e) => {
+                if (e.target === modal_medidas) modal_medidas.close()
+            })
+        </script>
+
+        <script>
+
+
+            let modal_propiedades = document.getElementById('modal_propiedades')
+            modal_propiedades.addEventListener('click', (e) => {
+                if (e.target === modal_propiedades) modal_propiedades.close()
+            })
+        </script>
+
+        <script>
+
+
+            let modal_selectores = document.getElementById('modal_selectores')
+            modal_selectores.addEventListener('click', (e) => {
+                if (e.target === modal_selectores) modal_selectores.close()
+            })
+        </script>
+
+        </script>
     </main>
+
+
 
     <footer>
         <p>derechos-reservados-JADB</p>

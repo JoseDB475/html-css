@@ -20,6 +20,7 @@ header{
     padding:17px;
     background-color: rgb(77, 247, 170);
     display: flex;
+    text-decoration: none;
 }
 
 .encabezado{
